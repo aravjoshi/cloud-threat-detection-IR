@@ -1,0 +1,17 @@
+{
+  "AzureSignin-FailedBurst": {
+    "tactic": "TA0006",
+    "technique": "T1110",
+    "name": "Brute Force"
+  },
+  "GuardDuty-TrojanDropper": {
+    "tactic": "TA0002",
+    "technique": "T1204",
+    "name": "User Execution / Malware"
+  },
+  "GuardDuty-Portscan": {
+    "tactic": "TA0043",
+    "technique": "T1595",
+    "name": "Active Scanning"
+  }
+}
