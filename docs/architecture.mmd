@@ -1,0 +1,6 @@
+flowchart LR
+    A[Azure Sign-in Logs (CSV)] --> C[Correlate (Python)]
+    B[AWS GuardDuty Findings (JSON)] --> C
+    C --> D[Correlated Incidents (CSV)]
+    D --> E[Incident Summary Report (Markdown)]
+    E --> F[IR Playbooks (Analyst Actions)]
