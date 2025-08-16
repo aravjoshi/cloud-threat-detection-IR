@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.env
+# keep reports in git for demo if you want; otherwise uncomment the next two lines
+# reports/*.csv
+# reports/*.md
