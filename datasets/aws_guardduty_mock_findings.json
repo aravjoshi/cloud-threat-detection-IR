@@ -1,0 +1,16 @@
+[
+  {
+    "id": "gd-001",
+    "type": "Recon:EC2/Portscan",
+    "severity": 5,
+    "resource": "i-0123456789abcdef0",
+    "time": "2025-08-01T07:50:00Z"
+  },
+  {
+    "id": "gd-002",
+    "type": "Trojan:EC2/Dropper",
+    "severity": 8,
+    "resource": "i-0fedcba9876543210",
+    "time": "2025-08-01T09:10:00Z"
+  }
+]
